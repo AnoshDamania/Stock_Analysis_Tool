@@ -2,17 +2,17 @@
 
 ## This Project has been deployed HERE -> https://huggingface.co/spaces/AnoshDamania/Stock_Analysis_tool
 
-#### This is a Stock Analysis tool which has the following features
+#### This is a Stock Analysis tool which has the following features:
 * Can Analyse any Stock using the "Ticker" inputted by the user.
 * Provides exceptionally detailed information about the current, and past states of the stocks using many different ratios and ML algorithms
-* Does Predictive Analysis to predict the future prices and trends of the stock prices
+* Does Predictive Analysis, predicts the future prices and trends of the stock prices
 * Ease of use and understanding through the UI.
 
-### These technologies, algorithms and frameworks were used to achive this
+### The technologies, algorithms and frameworks that were used to achieve this are:
 * yFincnce (the Yahoo finance Python framework) is used to retrieve the data(Stock price data, ratios, general information, etc.) for any stock.
 * Seasonal decomposition is performed to better understand the trends that the stock prices follow throughout its lifetime.
 * LSTM regression is performed to predict future stock prices based on past values.
-* Gradio (Spaces when deployed) is used to create a wonderful UI for the tool.
+* Gradio (Spaces when deployed) is used to create an excellent UI for the tool.
 * Graphs and plots are made using Matplotlib and the gradio interface.
 
 ## Images
